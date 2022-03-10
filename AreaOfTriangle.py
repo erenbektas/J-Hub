@@ -3,12 +3,13 @@ def area():
     while True:
 
         def main():
-            from main import home
-            home()
+            from BackHome import back
+            back()
 
 ###############################################################################################################################################
         help = """
-        Welcome to help! So, what you need to do is writing lengths of each sides of the triangle. Don\'t forget to separate them with space.
+        Someone said help?!
+        So, what you need to do is writing lengths of each sides of the triangle. Don\'t forget to separate them with space.
         Let\'s say our triangle has sides with following lenghts: 8 cm, 15 cm, 17 cm.
         In this case, the input should be \"8 15 17\", without the quotation marks (\")! You can also use decimals!
         NOTE: You can go back to main menu by entering \"main/exit/home\"!
@@ -19,18 +20,18 @@ def area():
         So, what you need to do is writing lengths of each sides of the triangle. Don\'t forget to separate them with space.
         Let\'s say our triangle has sides with following lenghts: 8 cm, 15 cm, 17 cm.
         In this case, the input should be \"8 15 17\", without the quotation marks (\")! You can also use decimals!
-        NOTE: You can go back to main menu by entering \"main/exit/home\"!
+        NOTE: You can go back to main menu by entering \"main/exit/home/back\"!
         """
 ###############################################################################################################################################
-        exit = "main", "exit", "home"
+        exit = "main", "exit", "home", "back"
 ###############################################################################################################################################
 
-        lengths = input("Please enter the lengths of the sides of the triangle by separating them with spaces. Enter \"help\" for more information:" )
+        lengths = input("================================\nPlease enter the lengths of the sides of the triangle by separating them with spaces. Enter \"help\" for more information:" )
         ls_ln = lengths.split(" ")
 
         if lengths == "help":
             return help
-        if lengths in exit:
+        elif lengths in exit:
             main()
         else:
             try:
