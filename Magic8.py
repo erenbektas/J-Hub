@@ -2,7 +2,7 @@ def magic8():
 
     while True:
 
-        def main():
+        def main():   #the function to turn back to main.py
             from BackHome import back
             back()
 
