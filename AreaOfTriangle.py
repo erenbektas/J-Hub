@@ -8,7 +8,7 @@ def area():
 
 ###############################################################################################################################################
         help = """
-        Someone said help?!
+        Someone asked for help?!
         So, what you need to do is writing lengths of each sides of the triangle. Don\'t forget to separate them with space.
         Let\'s say our triangle has sides with following lenghts: 8 cm, 15 cm, 17 cm.
         In this case, the input should be \"8 15 17\", without the quotation marks (\")! You can also use decimals!

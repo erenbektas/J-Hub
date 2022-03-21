@@ -1,5 +1,6 @@
 from AreaOfTriangle import area
 from Magic8 import magic8
+from Hangman import hang
 
 ###############################################################################################################################################
 intro = """
@@ -18,13 +19,15 @@ index_error = """
 ###############################################################################################################################################
 
 list = [     #list of projects
-"1- Calculate the Area of a Triangle",
-"2- Magic 8-Ball"
+"1- Hangman",
+"2- Magic 8-Ball",
+"3- Triangle Area"
 ]
 
 funcs = [ #list of imported functions to be called by "print(funcs[int(direct_to) - 1]())"
-area,
+hang,
 magic8,
+area,
 ]
 
 def home():   #The function which will provdide the options
