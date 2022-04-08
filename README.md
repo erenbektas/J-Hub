@@ -8,6 +8,7 @@ Current tools/projects:
 
 1- Hangman
 2- Magic 8-Ball
-3- Triangle Area Calculator
+3- Rock Paper Scissors
+4- Triangle Area Calculator
 
 -Jenoah
