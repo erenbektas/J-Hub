@@ -23,7 +23,7 @@ def magic8():
 
         answers = [
         "It is certain.",
-        " It is decidedly so.",
+        "It is decidedly so.",
         "Without a doubt.",
         "Yes definitely.",
         "You may rely on it.",
@@ -49,12 +49,13 @@ def magic8():
         question = input("================================\nPlease ask your question, or enter \"help\" for more information: ")
 
         sepr = "================================"
-        txt = "\n\n Magic 8-Ball says:"
-        res = print(sepr, txt, answers[answer_index], "\n")
+        txt = "\n\n Magic 8-Ball says: "
+        res = sepr + txt + answers[answer_index] + "\n"
 
         if question == "help":
             return help
         elif question in exit:
             main()
         else:
-            result = res
+            print(res)
+           

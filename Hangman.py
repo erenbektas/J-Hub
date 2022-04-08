@@ -29,7 +29,7 @@ def hang():
     for i in range(len(word)):
         hint_list.append("_")
 
-    win = "Congratulations! You saved that poor guy! You saved the poor guy :\')"
+    win = "Congratulations! You saved that poor guy!"
     fail = "Sorry, you failed. The word was: " + word
 
     def game():

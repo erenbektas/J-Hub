@@ -1,6 +1,7 @@
 from AreaOfTriangle import area
 from Magic8 import magic8
 from Hangman import hang
+from Rock import rockps
 
 ###############################################################################################################################################
 intro = """
@@ -21,12 +22,14 @@ index_error = """
 list = [     #list of projects
 "1- Hangman",
 "2- Magic 8-Ball",
-"3- Triangle Area"
+"3- Rock, Paper, Scissors",
+"4- Triangle Area"
 ]
 
 funcs = [ #list of imported functions to be called by "print(funcs[int(direct_to) - 1]())"
 hang,
 magic8,
+rockps,
 area,
 ]
 
